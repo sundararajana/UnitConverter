@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- application name -->
+    <string name="app_name">UnitConverter</string>
+
+    <!-- menu actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_expreval">Eval Expression</string>
+    <string name="action_formula_list">Formula List</string>
+    <string name="action_add_formula">Add Formula</string>
+    <string name="action_edit_formula">Edit Formula</string>
+    <string name="action_delete_formula">Delete Formula</string>
+    
+    <!-- Eval expression screen inline help -->
+    <string name="evalHelp">Math expression evaluator: \n
+Enter an expression and hit &lt;enter&gt; to eval it.<b>+, -, *, /</b> and <b>^</b> (exponentiation) are allowed. <b>Variables</b> can be assigned with values.
+Math functions <b>sin, cos, log</b> can be called.
+Comma separated expressions are allowed as well.</string>
+
+    <!-- activity titles -->
+    <string name="title_activity_formulae_list">Available conversions</string>
+    <string name="title_activity_formula_use">Formula</string>
+    <string name="title_activity_expreval">Evaluate Exprerssion</string>
+    <string name="title_activity_add_formula">Add Formula</string>
+
+    <!-- new formula screen's label names -->
+    <string name="new_formula_name">Name</string>
+    <string name="new_formula_input">Input</string>
+    <string name="new_formula_output">Output</string>
+    <string name="new_formula_code">Formula</string>
+</resources>

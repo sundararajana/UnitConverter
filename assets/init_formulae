@@ -1,0 +1,30 @@
+#
+# Builtin converters
+#
+# Fohrenheit to Celsius and vice versa
+#
+fahrenheit to celsius:fahrenheit:celsius:(fahrenheit-32)*5/9
+celsius to fahrenheit:celsius:fahrenheit:(celsius*9/5) + 32
+#
+# miles to kilometer and vice versa
+#
+miles to kilometer:miles:km:miles*1.60934
+kilometer to miles:km:miles:km*0.621371
+#
+# foot to centimeter and vice versa
+foot to centimeter:foot:cm:foot*30.48
+centimeter to foot:cm:foot:cm*0.0328084
+#
+# pound to kilogram and vice versa
+pound to kilogram:lbs:kg:lbs*0.453592
+kilogram to pound:kg:lbs:kg*2.20462
+#
+# radians to degrees
+#
+radians to degrees:radians:degrees:radians*180/pi
+degrees to radian:degrees:radians:degrees*pi/180
+#
+# smoots to feet
+#
+smoots to feet:smoots:feet:smoots*5.58333333
+feet to smoots:feet:smoots:feet*0.179104478

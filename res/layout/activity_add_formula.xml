@@ -1,0 +1,101 @@
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".AddModifyFormulaActivity" >
+
+		<TextView
+		    android:id="@+id/newFormulaNameLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:layout_marginLeft="18dp"
+		    android:layout_marginTop="30dp"
+		    android:text="@string/new_formula_name" />
+
+		<EditText
+		    android:id="@+id/newFormulaName"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBaseline="@+id/newFormulaNameLabel"
+		    android:layout_alignBottom="@+id/newFormulaNameLabel"
+		    android:layout_alignParentRight="true"
+		    android:layout_marginLeft="39dp"
+		    android:layout_toRightOf="@+id/newFormulaNameLabel"
+		    android:ems="10"
+		    android:inputType="text"
+		    android:imeActionLabel="actionNext"
+		    android:singleLine="true" >
+
+		    <requestFocus />
+		</EditText>
+
+		<TextView
+		    android:id="@+id/newFormulaInputLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/newFormulaNameLabel"
+		    android:layout_below="@+id/newFormulaName"
+		    android:layout_marginTop="62dp"
+		    android:text="@string/new_formula_input" />
+
+		<EditText
+		    android:id="@+id/newFormulaInputName"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/newFormulaInputLabel"
+		    android:layout_alignLeft="@+id/newFormulaName"
+		    android:layout_alignParentRight="true"
+		    android:ems="10"
+		    android:imeActionLabel="actionNext"
+		    android:singleLine="true"
+		    android:inputType="text" />
+
+		<TextView
+		    android:id="@+id/newFormulaOutputNameLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/newFormulaInputLabel"
+		    android:layout_below="@+id/newFormulaInputLabel"
+		    android:layout_marginTop="38dp"
+		    android:text="@string/new_formula_output" />
+
+		<EditText
+		    android:id="@+id/newFormulaOutputName"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/newFormulaOutputNameLabel"
+		    android:layout_alignLeft="@+id/newFormulaInputName"
+		    android:layout_alignParentRight="true"
+		    android:ems="10"
+		    android:imeActionLabel="actionNext"
+		    android:singleLine="true" 
+		    android:inputType="text" />
+
+		<TextView
+		    android:id="@+id/newFormulaCodeLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignLeft="@+id/newFormulaOutputNameLabel"
+		    android:layout_below="@+id/newFormulaOutputNameLabel"
+		    android:layout_marginTop="66dp"
+		    android:text="@string/new_formula_code" />
+
+		<EditText
+		    android:id="@+id/newFormulaCode"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignBottom="@+id/newFormulaCodeLabel"
+		    android:layout_alignLeft="@+id/newFormulaOutputName"
+		    android:layout_alignParentRight="true"
+		    android:ems="10"
+		    android:imeActionLabel="actionDone"
+		    android:singleLine="true"
+		    android:inputType="text" />
+		
+	</RelativeLayout>

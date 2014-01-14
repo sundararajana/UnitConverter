@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.sundar.unitconverter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="in.sundar.unitconverter.FormulaeListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="in.sundar.unitconverter.ExprEvalActivity"
+            android:label="@string/title_activity_expreval" >
+        </activity>
+        <activity
+            android:name="in.sundar.unitconverter.FormulaUseActivity"
+            android:label="@string/title_activity_formula_use"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name="in.sundar.unitconverter.AddModifyFormulaActivity"
+            android:label="@string/title_activity_add_formula"
+            android:exported="false" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+You've to copy the following jars under this directory before build:
+ 
+* antlr-runtime-3.5.1.jar here. 
+
+It is available for download @ 
+   
+    http://www.antlr3.org/download/antlr-runtime-3.5.1.jar
+
+* android-support-v4.jar
+
+from your android sdk in the directory 
+
+    $android_sdk/extras/android/support/v4/
+
+where $android_sdk is your android sdk installation directory.

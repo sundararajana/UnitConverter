@@ -14,7 +14,11 @@ You need couple of jars to build and run this project.
 
 It is available for download @ 
    
-    http://www.antlr3.org/download/antlr-runtime-3.5.1.jar
+    http://www.antlr3.org/download/antlr-3.5.1-runtime.jar
+
+or
+
+   http://mvnrepository.com/artifact/org.antlr/antlr-runtime/3.5.1
 
 * android-support-v4.jar
 
